@@ -1,0 +1,43 @@
+body{
+    font-family: 'Lucida Sans';
+}
+
+h1.titulo{
+    text-align: center;
+}
+
+p.a{
+    border-top: double 15px;
+    border-left: double 15px;
+    border-color: red;
+}
+
+p.b{
+    border-style: dashed;
+    border-color: blue green;
+    border-width: 5px 10px 20px 40px;
+}
+
+p.c{
+    border-style: double;
+    border-color: yellow;
+    border-width: 30px 10px;
+}
+
+p.d{
+    border-style: solid none;
+    border-color: lime black blue;
+    border-width: 15px;
+}
+
+p.e{
+    border-style: dashed solid dotted;
+    border-width: 15px;
+    border-color: red black black;
+}
+
+p.f{
+    border-color: black black black red;
+    border-width: 10px 40px 20px;
+    border-style: dotted solid dashed double;
+}
